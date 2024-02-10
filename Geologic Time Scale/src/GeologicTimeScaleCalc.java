@@ -74,9 +74,9 @@ public class GeologicTimeScaleCalc {
 
     public static void Precambrian(double n) {
         System.out.println("In the Precambrian Eon Timeline");
-        //Haydean Eon 4000+ Ma
+        //Hadean Eon 4000+ Ma
         if (n > 4000) {
-            System.out.println("Eon: Haydean");
+            System.out.println("Eon: Hadean");
             System.out.println("There is no other information provided for this Eon.");
         } else if (n < 2500) {
             /*
